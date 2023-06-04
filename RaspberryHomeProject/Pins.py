@@ -1,0 +1,10 @@
+from enum import IntEnum
+
+class Pins(IntEnum):
+    PIN_SENSOR_RC = 18
+    PIN_SENSOR_PIR = 23
+    PIN_OUT_LIGHT = 14
+    PIN_BUTTON_YOUTUBE_VIDEO = 24
+    PIN_BUTTON_YOUTUBE_MUSIC = 17
+    PIN_SENSOR_PIR_2 = 21
+    PIN_OUT_PIRSWITCH_2 = 20
